@@ -1,0 +1,15 @@
+D:\Stage\ClassificazioneSerieDemand\bin\Debug\net6.0\ClassificazioneSerieDemand.exe
+D:\Stage\ClassificazioneSerieDemand\bin\Debug\net6.0\ClassificazioneSerieDemand.deps.json
+D:\Stage\ClassificazioneSerieDemand\bin\Debug\net6.0\ClassificazioneSerieDemand.runtimeconfig.json
+D:\Stage\ClassificazioneSerieDemand\bin\Debug\net6.0\ClassificazioneSerieDemand.dll
+D:\Stage\ClassificazioneSerieDemand\bin\Debug\net6.0\ClassificazioneSerieDemand.pdb
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.csproj.AssemblyReference.cache
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.AssemblyInfoInputs.cache
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.AssemblyInfo.cs
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.csproj.CoreCompileInputs.cache
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.dll
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\refint\ClassificazioneSerieDemand.dll
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.pdb
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ClassificazioneSerieDemand.genruntimeconfig.cache
+D:\Stage\ClassificazioneSerieDemand\obj\Debug\net6.0\ref\ClassificazioneSerieDemand.dll
