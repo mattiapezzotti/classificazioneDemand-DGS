@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stage\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj": {}
+    "D:\\Stage e Tesi\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj": {}
   },
   "projects": {
-    "D:\\Stage\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj": {
+    "D:\\Stage e Tesi\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stage\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj",
+        "projectUniqueName": "D:\\Stage e Tesi\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj",
         "projectName": "ClassificazioneSerieDemand",
-        "projectPath": "D:\\Stage\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj",
+        "projectPath": "D:\\Stage e Tesi\\ClassificazioneSerieDemand\\ClassificazioneSerieDemand.csproj",
         "packagesPath": "C:\\Users\\Mattia\\.nuget\\packages\\",
-        "outputPath": "D:\\Stage\\ClassificazioneSerieDemand\\obj\\",
+        "outputPath": "D:\\Stage e Tesi\\ClassificazioneSerieDemand\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mattia\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,20 +1,20 @@
-﻿const int NUMBER_OF_SERIES = 10;
+﻿FakeDB fakeDB = new FakeDB();
 
-FakeDB fakeDB = new FakeDB();
-List<Serie> series = new List<Serie>();
+List<Serie> series = fakeDB.readFromFile("fakeDatabase.json");
 
-for(int i = 0; i < NUMBER_OF_SERIES; i++){
-
-    double[] newArray = fakeDB.GenerateArray();
-    Serie newSerie = new Serie(newArray, "");
-
-    series.Add(newSerie);
-}
+/*
+foreach(Serie s in series)
+    Console.WriteLine(s.toString());
+*/
 
 int numerosityThreshold = 12;
 double sporadicThreshold = 0.5;
 double minMagnitudeThreshold = 0.2;
-double maxMagnitudeThreshold = 1.8;
+double maxMagnitudeThreshold = 1.5;
+
+List<SerieAnalysisResult> seriesAnalysisResults = new List<SerieAnalysisResult>();
 
 SeriesAnalyzer seriesAnalyzer = new SeriesAnalyzer(numerosityThreshold, sporadicThreshold, minMagnitudeThreshold, maxMagnitudeThreshold);
-seriesAnalyzer.AnalyzeSeries(series);
+seriesAnalysisResults = seriesAnalyzer.AnalyzeSeries(series);
+
+fakeDB.printToFile(seriesAnalysisResults, "fakeResults.json");
