@@ -14,7 +14,6 @@ public class SeriesAnalyzer
         MaxMagnitudeThreshold = maxMagnitudeThreshold;
     }
 
-    // Il metodo in realtà ritorna List<SerieAnalysisResult>
     public List<SerieAnalysisResult> AnalyzeSeries(List<Serie> series)
     {
 
