@@ -1,6 +1,6 @@
 [
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": true,
         "MagnitudeTag": "Grassa",
         "NumberOfBuckets": 10,
@@ -9,7 +9,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": true,
         "IsSporadic": true,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 2,
@@ -18,7 +18,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": false,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 12,
@@ -27,7 +27,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": true,
         "MagnitudeTag": "Magra",
         "NumberOfBuckets": 2,
@@ -36,7 +36,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": false,
         "MagnitudeTag": "Grassa",
         "NumberOfBuckets": 12,
@@ -45,7 +45,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": false,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 6,
@@ -54,7 +54,7 @@
         "MeanOfMedianTag": "a"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": false,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 8,
@@ -63,7 +63,7 @@
         "MeanOfMedianTag": "b"
     },
     {
-        "IsNumerous": false,
+        "IsShort": true,
         "IsSporadic": false,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 3,
@@ -72,7 +72,7 @@
         "MeanOfMedianTag": "c"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": false,
         "MagnitudeTag": "Grassa",
         "NumberOfBuckets": 6,
@@ -81,7 +81,7 @@
         "MeanOfMedianTag": "c"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": true,
         "MagnitudeTag": "Magra",
         "NumberOfBuckets": 5,
@@ -90,7 +90,7 @@
         "MeanOfMedianTag": "c"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": true,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 11,
@@ -99,7 +99,7 @@
         "MeanOfMedianTag": "c"
     },
     {
-        "IsNumerous": false,
+        "IsShort": false,
         "IsSporadic": true,
         "MagnitudeTag": "Normale",
         "NumberOfBuckets": 5,

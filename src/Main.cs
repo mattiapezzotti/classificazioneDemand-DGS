@@ -7,7 +7,7 @@ foreach(Serie s in series)
     Console.WriteLine(s.toString());
 */
 
-int numerosityThreshold = 12;
+int numerosityThreshold = 8;
 double sporadicThreshold = 0.5;
 double minMagnitudeThreshold = 0.2;
 double maxMagnitudeThreshold = 1.5;
