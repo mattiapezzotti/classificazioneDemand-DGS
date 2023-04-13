@@ -42,16 +42,16 @@ public class SeriesAnalyzer
 
         bool isShort;
         bool isSporadic;
-        string magnitudeTag;
+        Magnitude magnitudeClass;
         int numberOfBuckets;
         int nullBucketsStreak;
         double median;
 
-        // Dizionari utilizzati per tenere traccia delle Mediane di ogni serie per ogni tag
-        var tagMedians = new Dictionary<string, List<double>>();
+        // Dizionari utilizzati per tenere traccia di tutte le Mediane delle serie con lo stesso Tag
+        var MedianOfTag = new Dictionary<string, List<double>>();
 
-        // Dizionari utilizzati per tenere traccia della Media di ogni Mediana
-        var tagMeans = new Dictionary<string, double>();
+        // Dizionari utilizzati per tenere traccia della Media delle Mediane di ogni Tag
+        var MeanOfTag = new Dictionary<string, double>();
 
         List<SerieAnalysisResult> seriesAnalysisResults = new List<SerieAnalysisResult>();
 
@@ -64,11 +64,11 @@ public class SeriesAnalyzer
                 continue;
             }
 
-            tagMedians.TryAdd(serie.Tag, new List<double>());
+            MedianOfTag.TryAdd(serie.Tag, new List<double>());
 
             median = MedianValue(serieValues);
 
-            tagMedians[serie.Tag].Add(median);
+            MedianOfTag[serie.Tag].Add(median);
             
             isShort = IsShort(serieValues);
             isSporadic = IsSporadic(serieValues);
@@ -81,16 +81,17 @@ public class SeriesAnalyzer
             seriesAnalysisResults.Add(serieAnalysisResult);
         }
 
-        // Per ogni Mediana associo la corrispondente Media delle Mediane
-        foreach(var tagMedian in tagMedians){
-            tagMeans.Add(tagMedian.Key, MeanValue(tagMedian.Value.ToArray()));
+        // Per ogni Tag associo la corrispondente Media delle Mediane
+        foreach(var tagMedian in MedianOfTag){
+            MeanOfTag.Add(tagMedian.Key, MeanValue(tagMedian.Value.ToArray()));
         }
 
-        // Per ogni Serie calcolo il corrispondente tag (Magra, Normale, Grassa)
+        // Per ogni Serie calcolo il corrispondente MagnitudeTag (Magra, Normale, Grassa)
         foreach (var serieAnalysisResults in seriesAnalysisResults)
         {
-            magnitudeTag = MagnitudeTag(serieAnalysisResults.Median, tagMeans[serieAnalysisResults.MeanOfMedianTag]);
-            serieAnalysisResults.MagnitudeTag = magnitudeTag;
+            magnitudeClass = FindMagnitudeClass(serieAnalysisResults.Median, MeanOfTag[serieAnalysisResults.Tag]);
+            serieAnalysisResults.MagnitudeClass = magnitudeClass;
+            serieAnalysisResults.TagMeanOfMedian = MeanOfTag[serieAnalysisResults.Tag];
         }
 
         return seriesAnalysisResults;
@@ -114,18 +115,18 @@ public class SeriesAnalyzer
         return serie;
     }
 
-    /// <summary> Calcola il tag per ogni 
+    /// <summary> Calcola il MagnitudeTag prendendo in esame una mediana e la media delle mediane
     /// </summary>
     /// <param name="series"> Una Serie Storica. </param> 
-    /// <returns> Una copia della <c>Serie Storica</c>, senza Bucket nulli iniziali </returns>
-    private string MagnitudeTag(double median, double medianMean)
+    /// <returns> Il magnitudeTag corrispondente </returns>
+    private Magnitude FindMagnitudeClass(double median, double medianMean)
     {
-        string serieTag = "Normale";
+        Magnitude magnitude = Magnitude.AVERAGE;
         if (medianMean * MaxMagnitudeThreshold <= median)
-            serieTag = "Grassa";
+            magnitude = Magnitude.LARGE;
         else if (medianMean * MinMagnitudeThreshold >= median)
-            serieTag = "Magra";
-        return serieTag;
+            magnitude = Magnitude.SMALL;
+        return magnitude;
     }
 
     /// <summary> Conta il numero di Bucket non nulli

@@ -2,109 +2,121 @@
     {
         "IsShort": false,
         "IsSporadic": true,
-        "MagnitudeTag": "Grassa",
+        "MagnitudeClass": 0,
         "NumberOfBuckets": 10,
         "NullBucketsStreak": 1,
         "Median": 4,
-        "MeanOfMedianTag": "a"
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": true,
         "IsSporadic": true,
-        "MagnitudeTag": "Normale",
+        "MagnitudeClass": 1,
         "NumberOfBuckets": 2,
         "NullBucketsStreak": 1,
         "Median": 1,
-        "MeanOfMedianTag": "a"
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": false,
         "IsSporadic": false,
-        "MagnitudeTag": "Normale",
+        "MagnitudeClass": 1,
         "NumberOfBuckets": 12,
         "NullBucketsStreak": 0,
         "Median": 1,
-        "MeanOfMedianTag": "a"
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": false,
         "IsSporadic": true,
-        "MagnitudeTag": "Magra",
+        "MagnitudeClass": 2,
         "NumberOfBuckets": 2,
         "NullBucketsStreak": 10,
         "Median": 0,
-        "MeanOfMedianTag": "a"
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": false,
         "IsSporadic": false,
-        "MagnitudeTag": "Grassa",
+        "MagnitudeClass": 0,
         "NumberOfBuckets": 12,
         "NullBucketsStreak": 0,
         "Median": 5.5,
-        "MeanOfMedianTag": "a"
-    },
-    {
-        "IsShort": false,
-        "IsSporadic": false,
-        "MagnitudeTag": "Normale",
-        "NumberOfBuckets": 6,
-        "NullBucketsStreak": 0,
-        "Median": 3.5,
-        "MeanOfMedianTag": "a"
-    },
-    {
-        "IsShort": false,
-        "IsSporadic": false,
-        "MagnitudeTag": "Normale",
-        "NumberOfBuckets": 8,
-        "NullBucketsStreak": 0,
-        "Median": 7,
-        "MeanOfMedianTag": "b"
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": true,
         "IsSporadic": false,
-        "MagnitudeTag": "Normale",
-        "NumberOfBuckets": 3,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 6,
         "NullBucketsStreak": 0,
-        "Median": 14,
-        "MeanOfMedianTag": "c"
+        "Median": 3.5,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
     },
     {
         "IsShort": false,
         "IsSporadic": false,
-        "MagnitudeTag": "Grassa",
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 8,
+        "NullBucketsStreak": 0,
+        "Median": 7,
+        "Tag": "b",
+        "TagMeanOfMedian": 4.75
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": false,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 3,
+        "NullBucketsStreak": 0,
+        "Median": 14,
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": false,
+        "MagnitudeClass": 0,
         "NumberOfBuckets": 6,
         "NullBucketsStreak": 0,
         "Median": 20,
-        "MeanOfMedianTag": "c"
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
     },
     {
         "IsShort": false,
         "IsSporadic": true,
-        "MagnitudeTag": "Magra",
+        "MagnitudeClass": 2,
         "NumberOfBuckets": 5,
         "NullBucketsStreak": 4,
         "Median": 0,
-        "MeanOfMedianTag": "c"
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
     },
     {
         "IsShort": false,
         "IsSporadic": true,
-        "MagnitudeTag": "Normale",
+        "MagnitudeClass": 1,
         "NumberOfBuckets": 11,
         "NullBucketsStreak": 1,
         "Median": 4,
-        "MeanOfMedianTag": "c"
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
     },
     {
-        "IsShort": false,
+        "IsShort": true,
         "IsSporadic": true,
-        "MagnitudeTag": "Normale",
+        "MagnitudeClass": 1,
         "NumberOfBuckets": 5,
         "NullBucketsStreak": 1,
         "Median": 2.5,
-        "MeanOfMedianTag": "b"
+        "Tag": "b",
+        "TagMeanOfMedian": 4.75
     }
 ]
