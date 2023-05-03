@@ -1,0 +1,122 @@
+[
+    {
+        "IsShort": false,
+        "IsSporadic": true,
+        "MagnitudeClass": 0,
+        "NumberOfBuckets": 10,
+        "NullBucketsStreak": 1,
+        "Median": 4,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": true,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 2,
+        "NullBucketsStreak": 1,
+        "Median": 1,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": false,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 12,
+        "NullBucketsStreak": 0,
+        "Median": 1,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": true,
+        "MagnitudeClass": 2,
+        "NumberOfBuckets": 2,
+        "NullBucketsStreak": 10,
+        "Median": 0,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": false,
+        "MagnitudeClass": 0,
+        "NumberOfBuckets": 12,
+        "NullBucketsStreak": 0,
+        "Median": 5.5,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": false,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 6,
+        "NullBucketsStreak": 0,
+        "Median": 3.5,
+        "Tag": "a",
+        "TagMeanOfMedian": 2.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": false,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 8,
+        "NullBucketsStreak": 0,
+        "Median": 7,
+        "Tag": "b",
+        "TagMeanOfMedian": 4.75
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": false,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 3,
+        "NullBucketsStreak": 0,
+        "Median": 14,
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": false,
+        "MagnitudeClass": 0,
+        "NumberOfBuckets": 6,
+        "NullBucketsStreak": 0,
+        "Median": 20,
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": true,
+        "MagnitudeClass": 2,
+        "NumberOfBuckets": 5,
+        "NullBucketsStreak": 4,
+        "Median": 0,
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
+    },
+    {
+        "IsShort": false,
+        "IsSporadic": true,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 11,
+        "NullBucketsStreak": 1,
+        "Median": 4,
+        "Tag": "c",
+        "TagMeanOfMedian": 9.5
+    },
+    {
+        "IsShort": true,
+        "IsSporadic": true,
+        "MagnitudeClass": 1,
+        "NumberOfBuckets": 5,
+        "NullBucketsStreak": 1,
+        "Median": 2.5,
+        "Tag": "b",
+        "TagMeanOfMedian": 4.75
+    }
+]
