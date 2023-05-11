@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassificazioneSerieDemand.csproj" />
     <ProjectReference Include="..\ClassificazioneSerieDemand\ClassificazioneSerieDemand.csproj" />
   </ItemGroup>
 
