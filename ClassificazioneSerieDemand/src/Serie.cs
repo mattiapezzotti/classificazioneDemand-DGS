@@ -2,19 +2,17 @@
 /// </summary>
 public class Serie
 {
-
-    public double[] Values { get; set; }
     public string Tag { get; set; }
+    public double[] Values { get; set; }
 
     /// <summary> Construttore per inizializzare una Serie
-    /// (<paramref name="values"/>,
-    /// <paramref name="tag"/>).
+    /// (<paramref name="tag"/>, <paramref name="values"/>).
     /// </summary>
     /// <param name="values">
     /// Array di double che contiene i valori dei bucket della serie </param>
     /// <param name="tag">
     /// Tag alfanumerico attribuito alla serie. </param>
-    public Serie(double[] values, string tag)
+    public Serie(string tag, double[] values)
     {
         Values = values;
         Tag = tag;

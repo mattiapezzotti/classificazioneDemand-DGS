@@ -16,7 +16,7 @@ public class UnitTest1
     public void Test1()
     {
         double[] bucket = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1};
-        Serie serie = new Serie(bucket, "a");
+        Serie serie = new Serie("a", bucket);
         List<Serie> input = new List<Serie>();
 
         input.Add(serie);
