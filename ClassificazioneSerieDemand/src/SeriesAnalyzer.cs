@@ -63,7 +63,6 @@ public class SeriesAnalyzer
         {
             double[] serieValues = TrimSerie(serie.Values);
 
-            // Una serie nulla fa sballare l'ordine, quindi bisogna capire cosa è meglio fare
             if(serieValues.Length == 0){
                 continue;
             }
